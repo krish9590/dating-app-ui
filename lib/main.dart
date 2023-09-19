@@ -2,10 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:dating_app/pages/profile_page.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   void main(){
     List<String> names = ["Raj", "John", "Rocky"];
     print(names.length);
