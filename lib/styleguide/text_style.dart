@@ -20,7 +20,7 @@ const TextStyle whiteSubHeadingTextStyle = TextStyle(
 const TextStyle titleStyle = TextStyle(
   fontSize: 22.0,
   color: primaryTextColor,
-  fontWeight: FontWeight.w600,
+  fontWeight: FontWeight.w600
 );
 const TextStyle subTitleStyle = TextStyle(
   fontSize: 18.0,
